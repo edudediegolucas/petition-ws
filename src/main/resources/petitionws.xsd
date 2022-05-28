@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://edudediegolucas.es/petition/ws"
+           targetNamespace="http://edudediegolucas.es/petition/ws" elementFormDefault="qualified">
+
+    <xs:element name="getPetitionRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getPetitionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="petition" type="tns:petition"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="savePetitionRequest">
+        <xs:complexType>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="savePetitionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="id" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getAllPetitionRequest">
+        <xs:complexType>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="getAllPetitionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="petition" type="tns:petition" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="petition">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="data" type="xs:string"/>
+            <xs:element name="status" type="xs:string"/>
+            <xs:element name="creationTime" type="xs:dateTime"/>
+            <xs:element name="signatureTime" type="xs:dateTime"/>
+            <xs:element name="nif" type="xs:string"/>
+            <xs:element name="name" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

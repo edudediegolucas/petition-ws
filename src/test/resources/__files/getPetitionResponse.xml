@@ -1,0 +1,15 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:getPetitionResponse xmlns:ns2="http://edudediegolucas.es/petition/ws">
+            <ns2:petition>
+                <ns2:id>7JOLO6IC</ns2:id>
+                <ns2:data>rO0ABXNyAEZlcy5lZHVkZWRpZWdvbHVjYXMucGV0aXRpb24ud3MucmVwb3NpdG9yeS5wZXRpdGlvbi5QZXRpdGlvbkVudGl0eSREYXRhx9dulFSSfuQCAAJMAAlzaWduYXR1cmV0ABJMamF2YS9sYW5nL1N0cmluZztMAAR0eXBldABNTGVzL2VkdWRlZGllZ29sdWNhcy9wZXRpdGlvbi93cy9yZXBvc2l0b3J5L3BldGl0aW9uL1BldGl0aW9uRW50aXR5JERhdGEkVHlwZTt4cHQAWFF0MTd0VlBVTUZ3QVZCWTA5eG5oMTdHeEhJMUFiUHlIWlhRaUNRZjJQVWY0bXpGMDNyekhKWmp5V0RwWUhMajRpOHBvOHlWaDV1YVYyako2bGtkSmtRPT1+cgBLZXMuZWR1ZGVkaWVnb2x1Y2FzLnBldGl0aW9uLndzLnJlcG9zaXRvcnkucGV0aXRpb24uUGV0aXRpb25FbnRpdHkkRGF0YSRUeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGRVhQRVJU</ns2:data>
+                <ns2:creationTime>2018-12-30T22:49:35.367</ns2:creationTime>
+                <ns2:signatureTime>2018-10-27T06:19:05.933</ns2:signatureTime>
+                <ns2:nif>m4sq7IvX</ns2:nif>
+                <ns2:name>Na3aFn</ns2:name>
+            </ns2:petition>
+        </ns2:getPetitionResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

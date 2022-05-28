@@ -1,0 +1,8 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:savePetitionResponse xmlns:ns2="http://edudediegolucas.es/petition/ws">
+            <ns2:id>7JOLO6IC</ns2:id>
+        </ns2:savePetitionResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
